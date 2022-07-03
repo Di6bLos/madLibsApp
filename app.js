@@ -3,10 +3,16 @@
 
 // User Prompts
 
-let intro = '- Please enter a ' 
+let questionTotal = 12;
 
-let questionArray = 
-['name of a friend.',
+let questionCounter = 0;
+
+let userInputs = [];
+
+let intro = 'Please enter a ' ;
+
+let questionArray = [
+'name of a friend.',
 'nasty adjective.',
 'animal sound.',
 'color.',
@@ -17,21 +23,18 @@ let questionArray =
 'verb (past-tense).',
 'animal (plural).',
 'verb (past-tense).',
-'adjective.'];
+'adjective.'
+];
 
-let questionCounter = 12;
+for (let i = questionTotal; i >= 0; i--){
+    console.log(i);
 
-
-
-for (let questions of questionArray){
-    console.log(questionCounter-- + intro + questions);
-    console.log
 }
+
 
 
 // The Story
 
-let userInputs = [];
 
 
 let originalStory = 
@@ -40,7 +43,6 @@ let originalStory =
 It had very ${userInputs[5]} ${userInputs[6]} and a huge ${userInputs[7]}, 
 so we ${userInputs[8]} onto our ${userInputs[9]} and ${userInputs[10]} away from the dark, ${userInputs[11]} forest.`;
 
-let numberOfQuestions = 12;
 
 
 /* orginalStory - 
