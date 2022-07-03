@@ -1,5 +1,6 @@
 "use strict";
 
+// The Story
 
 let userInputs = [];
 
@@ -12,10 +13,21 @@ so we ${userInputs[8]} onto our ${userInputs[9]} and ${userInputs[10]} away from
 let numberOfQuestions = 12;
 
 
-console.log(originalStory);
+// User Prompts
 
-
-
+let questionArray = 
+['Enter name of best friend.',
+'Enter nasty adjective.',
+'Enter animal sound.',
+'Enter color.',
+'Enter animal.',
+'Enter adjective.',
+'Enter body parts (plural).',
+'Enter body part.',
+'Enter verb (past-tense).',
+'Enter animal (plural).',
+'Enter verb (past-tense).',
+'Enter adjective.'];
 
 
 
