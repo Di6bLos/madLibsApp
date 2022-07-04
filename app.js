@@ -7,21 +7,21 @@ let questionTotal = 12;
 
 let questionCounter = 0;
 
-let intro = 'Please enter a ' ;
+let intro = 'Please enter a' ;
 
 let questionArray = [
-'name of a friend.',
-'nasty adjective.',
-'animal sound.',
-'color.',
-'animal.',
-'adjective.',
-'body parts (plural).',
-'body part.',
-'verb (past-tense).',
-'animal (plural).',
-'verb (past-tense).',
-'adjective.'
+' name of a friend.',
+' nasty adjective.',
+'n animal sound.',
+' color.',
+'n animal.',
+'n adjective.',
+' body part (plural).',
+' body part.',
+' verb (past-tense).',
+'n animal (plural).',
+' verb (past-tense).',
+'n adjective.'
 ];
 
 let userInputs = [];
@@ -41,7 +41,7 @@ console.log(userInputs);
 
 alert('All done. Check out your story!')
 
-
+ 
 // The Story
 
 
